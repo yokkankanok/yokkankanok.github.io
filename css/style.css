@@ -1,0 +1,111 @@
+body {
+  color: #333;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  color: #aaa;
+  text-decoration: underline;
+}
+a:hover {
+  color: #aaa;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 65 px;
+  background-color: #e2566d;
+}
+
+#header-container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+header h1 {
+  width: 150px;
+  margin-right: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+header nav {
+  width: 540px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#gnav {
+  width: 340px;
+  margin-right: auto;
+}
+
+#snsnav {
+  width: 90px;
+}
+
+
+/* main*/
+
+#main{
+    width: 100%;
+    height: 660px;
+    background: #33383A url(../img/Mainpng.png) right center no-repeat;
+
+}
+#main h2 {
+  color: #ECC9C8;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  width: 900px;
+  padding-left: 60px;
+  padding-top: 50px;
+
+}
+#intro{
+    width: 100%;
+    height: 418px;
+    background-color: #4F575A;
+    font-family: "Montserrat", sans-serif;
+    /*font-style: italic;*/
+    font-weight: lighter;
+}
+
+#intro section{
+    text-align: center;
+    margin-top: 125px;
+}
+#intro section i {
+    font-size: 100px;
+     color:  #e2566d;
+
+}
+
+#intro section h4 {
+    font-size: 50px;
+    color: #ECC9C8;
+}
+
+#intro-container{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
