@@ -1,7 +1,7 @@
 body {
   color: #333;
   font-family: "Noto Sans JP", sans-serif;
-  background-color: #33383A;
+  background-color: #33383a;
 }
 
 a {
@@ -17,7 +17,7 @@ a:hover {
 /* header */
 header {
   width: 100%;
-  height: 65 px;
+  height: 35px;
   background-color: #e2566d;
 }
 
@@ -41,8 +41,8 @@ header nav {
   font-size: 16px;
 }
 
-nav{
-    display: flex;
+nav {
+  display: flex;
 }
 
 nav ul {
@@ -59,104 +59,101 @@ nav ul {
   width: 90px;
 }
 
-
 /* main*/
 
-#main{
-    width: 100%;
-    height: 660px;
-    background: #33383A url(../img/Mainpng.png) right center no-repeat;
-
+#main {
+  width: 100%;
+  height: 660px;
+  background: #33383a url(../img/Mainpng.png) right center no-repeat;
 }
 #main h2 {
-  color: #ECC9C8;
+  color: #ecc9c8;
   font-size: 64px;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   width: 900px;
-  padding-left: 60px;
+  padding-left: 80px;
   padding-top: 50px;
-
-
 }
-#intro{
-    width: 100%;
-    height: 418px;
-    background-color: #4F575A;
-    font-family: "Montserrat", sans-serif;
-    /*font-style: italic;*/
-    font-weight: lighter;
+#intro {
+  width: 100%;
+  height: 418px;
+  background-color: #4f575a;
+  font-family: "Montserrat", sans-serif;
+  /*font-style: italic;*/
+  font-weight: lighter;
 }
 
-#intro section{
-    text-align: center;
-    margin-top: 125px;
+#intro section {
+  text-align: center;
+  margin-top: 125px;
 }
 #intro section i {
-    font-size: 100px;
-     color:  #e2566d;
-
+  font-size: 100px;
+  color: #e2566d;
 }
 
 #intro section h4 {
-    font-size: 50px;
-    color: #ECC9C8;
+  font-size: 50px;
+  color: #ecc9c8;
 }
 
-#intro-container{
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+#intro-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 
 #works {
-
 }
-#works h3{
+#works h3 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700i;
- font-size: 64px;
- color: #e2566d;
- font-style: italic;
-text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  color: #e2566d;
+  font-style: italic;
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
-.works-container{
+.works-container {
   width: 1110px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .works-container section {
- width: 468px;
- height: 443px;
- background-color: #4F575A;
- text-align: center;
- padding-top: 55px;
- margin-bottom: 90px;
+  width: 468px;
+  height: 443px;
+  background-color: #4f575a;
+  text-align: center;
+  padding-top: 55px;
+  margin-bottom: 90px;
 }
 
 .works-container section h4 {
   font-size: 36px;
-  color: #ECC9C8;
+  color: #ecc9c8;
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-  font-weight: 700i;
+  font-weight: 700;
   text-align: left;
   padding-left: 42px;
 }
 
 footer {
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   padding-top: 160px;
   padding-bottom: 68px;
 }
 
 footer p {
-  text-align: center
+  text-align: center;
 }
