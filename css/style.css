@@ -50,6 +50,16 @@ nav ul {
   justify-content: space-between;
 }
 
+nav ul a {
+  padding-top: 7px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li.current a {
+border-bottom: 2px #c4c4c4 solid;
+padding-bottom: 2px;
+}
 #gnav {
   width: 340px;
   margin-right: auto;
@@ -71,7 +81,7 @@ nav ul {
   font-size: 64px;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
-  width: 900px;
+  width: 60%;
   padding-left: 80px;
   padding-top: 50px;
 }
